@@ -41,7 +41,7 @@
 # print(l)
 
 
-#vowel
+# vowel
 # a=str(input("enter a string:"))
 # vowel=['a','e','i','o','u']
 # count=0
@@ -61,7 +61,7 @@
 # print(s)
 
 
-#special char
+# special char
 # a="p@#.yt.@@hon#]"
 # s=" "
 # for b in a:
@@ -79,9 +79,9 @@
 #        s+=b 
 # print(s)
 
-
+# n=10
 # for i in range(1,n+1):
-#     print(i) 
+#      print(i) 
 
 
 # n=int(input("enter a range:"))
@@ -213,16 +213,19 @@
 #     print(a,"x",i,"=",a*i)
 
 #greatest common divisor
-a=int(input("enter first no:"))
-b=int(input("enter second no:"))
-divisor=0
-if a<b:
-    for i in range(1,a+1):
-        if a%i==0 and b%i==0:
-            divisor+=i
-            print(divisor)
-
-
+# l=[]
+# a=12
+# b=6
+# if a<b:
+#     pass
+# else:
+#     for i in range(1,b+1):
+#         if a%i==0 and b%i==0:
+#             l.append(i)
+#             print(i)
+# max(l)
+# greatest=max(l)
+# print("gcd is:",greatest)
 
 
      
