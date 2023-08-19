@@ -41,7 +41,7 @@
 # print(l)
 
 
-# vowel
+#vowel
 # a=str(input("enter a string:"))
 # vowel=['a','e','i','o','u']
 # count=0
@@ -61,7 +61,7 @@
 # print(s)
 
 
-# special char
+#special char
 # a="p@#.yt.@@hon#]"
 # s=" "
 # for b in a:
@@ -79,9 +79,9 @@
 #        s+=b 
 # print(s)
 
-# n=10
+
 # for i in range(1,n+1):
-#      print(i) 
+#     print(i) 
 
 
 # n=int(input("enter a range:"))
@@ -220,12 +220,25 @@
 #     pass
 # else:
 #     for i in range(1,b+1):
+#         l.append(i)
 #         if a%i==0 and b%i==0:
-#             l.append(i)
 #             print(i)
 # max(l)
 # greatest=max(l)
 # print("gcd is:",greatest)
+
+
+
+#nested looping
+l=['abc','bcd','ccc']
+for i in l:
+    for j in i:
+        print(j)
+        
+    
+
+    
+
 
 
      
