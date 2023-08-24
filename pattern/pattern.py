@@ -31,6 +31,8 @@
 # for i in range(5,0,-1):
 #     print('* '*i)
 
+
+
 # for i in range(1,10,2):
 #     print(i)
 
@@ -50,9 +52,27 @@
 #     print()    
 
 
-for i in range(1,6):
-    for j in range(1,2*i):
-         if j % 2 != 0:
-             print(j,end=' ')
-    print() 
+# for i in range(1,6):
+#     for j in range(1,2*i):
+#          if j % 2 != 0:
+#              print(j,end=' ')
+#     print() 
 
+# for i in range(1,6):
+#     for j in range(1,2*(i+1)):
+#         if j % 2 == 0:
+#             print(j,end=' ')
+#     print() 
+
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#        print(j%2,end=' ')
+#     print()
+
+
+for i in range(1,6):
+    for j in range(1,i+1):
+            print(j,end=' ')
+
+    print()
