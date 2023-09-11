@@ -99,15 +99,72 @@
 # print(sample(10,20))
 
 
-def are_anagrams(str1,str2):
-    a=str(str1)
-    b=str(str2)
-    for i in a:
-        if i in b:
-            return True
-        return False
+# def are_anagrams(str1,str2):
+#     a=str(str1)
+#     b=str(str2)
+#     for i in a:
+#         if i in b:
+#             return True
+#         return False
 
            
-a=str(input("enter a string:"))
-b=str(input("enter a string:"))
-print(are_anagrams(a,b))
+# a=str(input("enter a string:"))
+# b=str(input("enter a string:"))
+# print(are_anagrams(a,b))
+
+
+# def numbers_to_words(n):
+#     numbers={0:"zero",1:"one",2:"two",3:"three",4:"four",5:"five",6:"six",7:"seven",8:"eight",9:"nine"} 
+#     for i in n:
+#         j=int(i)
+    
+#         if j in numbers.keys():
+#             print(numbers[j])
+
+
+
+# num=input("enter a number:")
+# numbers_to_words(num)
+
+
+# b="python"
+# def sample():
+#     global a 
+#     a="abc"
+#     print("first:",b)
+# def sample2():
+#     print("sec:",b)
+#     print(a)
+# sample()
+# sample2()
+
+
+
+# def sample(*args):
+#     print(args[0])
+# sample(5,4,7)
+
+
+# def sample(a=4,b=10):
+#     print(a+b)
+# sample()
+# sample(7,8)
+
+
+# def sample(a):
+#     if a>0:
+#         print("hello")
+#         a-=1
+#         sample(a)
+# sample(5)
+
+
+def sample(a):
+   if a<50:
+     if a%2!=0:
+        print(a)
+
+     a+=1
+     sample(a)
+
+sample(1)
