@@ -57,13 +57,19 @@
 # print(c)
 
 
-def dis(n):
-    return n%2==0
+# def dis(n):
+#     return n%2==0
     
-s=filter(dis,[66,18,22,55,9,12])
+# s=filter(dis,[66,18,22,55,9,12])
 
+# from functools import reduce
+# def sum(a,b):
+#     return a+b
+# c=reduce(sum,s)
+# print(c)
+
+
+c=filter(lambda n:n%2==0,[66,18,22,55,9,12])
 from functools import reduce
-def sum(a,b):
-    return a+b
-c=reduce(sum,s)
-print(c)
+s=reduce(lambda a,b:a+b,c)
+print(s)
