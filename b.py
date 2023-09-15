@@ -16,6 +16,6 @@
 #     a.div(x,y)
 
 
-import mymodule as a
+import mymodule.mymodule as a
 print(a.ob.name)
 a.ob.dis()
