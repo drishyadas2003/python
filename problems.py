@@ -14,25 +14,27 @@
 # # print(char)
 
 
-a=str(input("enter a string:"))
-v=['a','e','i','o','u']
-b=[]
-index=[]
-ind=[]
-count=0
-c=0
-l1=[]
-l2=[]
-char=" "
-for i in a:
-    if i in v:
-        b.append(i)
-        index=b.index(i)
-        l1.append(index)
-        count+=1
-        l2.append(count)
-print(l1)
-print(l2)
+# a=str(input("enter a string:"))
+# v=['a','e','i','o','u']
+# l=list(a)
+# index1=[]
+# b=[]
+# index=[]
+# ind=[]
+# count=0
+# c=0
+# l1=[]
+# l2=[]
+# char=" "
+# for i in a:
+#     if i in v:
+#         b.append(i)
+#         index=b.index(i)
+#         l1.append(index)
+#         count+=1
+#         l2.append(count)
+# print(l1)
+# print(l2)
         
 # # rev=b[::-1]
 # # for j in rev:
@@ -58,3 +60,17 @@ print(l2)
 # # b=str(a)
 # # print(b[::-1])
 
+
+
+
+
+
+
+
+a="Lorem ipsum is a simple dummy text"
+l=a.split()
+li=[]
+for b in l:
+    li.append(len(b))
+print(l[li.index(max(li))], max(li))
+    
